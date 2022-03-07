@@ -23,7 +23,7 @@ const ModalPayment = ({ openModalPayment, visiblePayment, cartPayment }: any) =>
     const showConfirm = () => {
 
         confirm({
-            title: 'Do you Want to buy anime?',
+            title: 'Do you Want to buy animal?',
             icon: <ExclamationCircleOutlined />,
             content: `All your order price ${somePrice()} Bath`,
             onOk() {
