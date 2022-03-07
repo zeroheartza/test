@@ -1,0 +1,26 @@
+
+.new-page {
+    width: 1200px;
+    margin: auto ;
+    margin-top:60px;
+     border-style: solid;
+      border-radius: 2em;
+      border-width: thin;
+      padding:30px;
+
+      &.active {
+        .content-space {
+          max-height: 20000px;
+          opacity: 1;
+          transition-property: max-height;
+            transition-duration: 0.12s;
+        }
+      }
+      .content-space {
+        max-height: 0px;
+        opacity: 0;
+        transition-property: max-height;
+        transition-duration: 0.12s;
+        overflow: hidden;
+    }
+}

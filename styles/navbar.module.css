@@ -1,0 +1,19 @@
+
+.heartnav {
+    background-color: #d1d1d1d0;
+    overflow: hidden;
+}
+
+.heartnav a{
+    float: right;
+    padding: 10px 10px;
+  
+    color: #000000;
+}
+
+.heartnav a:hover{
+  
+    background-color: #000000d0;
+    color: #ff0000;
+}
+
